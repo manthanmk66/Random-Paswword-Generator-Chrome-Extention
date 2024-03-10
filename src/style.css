@@ -1,0 +1,14 @@
+*{
+
+    font-family: monospace;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    background-color: #24232b;
+    color: azure;
+
+}
