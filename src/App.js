@@ -3,6 +3,15 @@ import './App.css';
 import './style.css';
 
 function App() {
+
+
+  const checkboxData=[
+    {title:"Include Uppercase Letters",state:false},
+    {title:"Include Lowercase Letters",state:false},
+    {title:"Include Numbers",state:false},
+    {title:"Include Symbols",state:false},
+
+  ]
   return (
     <div className="App">
     
@@ -23,7 +32,7 @@ function App() {
         <label> 4</label>
       </span>
 
-      <span>
+    
         <input 
         type='range'
         min='4'
@@ -31,12 +40,23 @@ function App() {
      
         // onchange={}
     
-
-
-
         />
 
-      </span>
+      </div>
+
+      {/* CheckBoxex */}
+      <div className="checkboxex">
+        {checkboxData.map((checkbox,index)=>{
+          return <div key={index}>
+
+            <input
+            type="checkbox" checked={checkbox.state}/>
+            <label>{checkbox.title}</label>
+          </div>
+        })}
+
+        
+
       </div>
 
 
@@ -49,6 +69,10 @@ function App() {
 
 
      {/*Generate Button*/}
+
+     <button className='generateBtn'>Generate Password</button>
+
+
 
 
 
