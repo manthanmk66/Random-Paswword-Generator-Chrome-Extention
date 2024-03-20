@@ -1,4 +1,5 @@
 # Random Password Generator
+https://manthanrandompasswordgenerator.netlify.app/
 
 ## This project is a simple random password generator tool and also made it for the Chrome Extention that allows users to generate strong and secure passwords based on their preferences. It provides various options to customize the generated passwords, such as length and character types.
 
@@ -22,5 +23,3 @@ This password generator is compatible with most modern web browsers and can be e
 Contributions:
 Contributions to the project are welcome! If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request on GitHub.
 
-License:
-This project is licensed under the MIT License.
